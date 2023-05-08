@@ -31,4 +31,13 @@ public class EmployeeMapperImpl implements EmployeeMapper {
 
         return employeesByCurrency;
     }
+
+    public void test(){
+        TreeSet<Employee> list = new TreeSet<>();
+        Employee e1 = new Employee();
+        Employee e2 = new Employee();
+        list.add(e1);
+        list.add(e2);
+
+    }
 }

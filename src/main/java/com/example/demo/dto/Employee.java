@@ -13,6 +13,13 @@ public class Employee {
     @Column(name = "amount")
     private int amount;
 
+    public Employee(){
+    }
+    public Employee(String name, int amount) {
+        this.name = name;
+        this.amount = amount;
+    }
+
     public String getEmpName() {
         return name;
     }

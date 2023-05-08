@@ -24,6 +24,12 @@ public class Bonus {
     @JsonFormat(pattern="yyyy-MM-dd")
     private LocalDate exitDate;
 
+    public Bonus(String curr, int amount) {
+        this.currency = curr;
+        this.amount = amount;
+    }
+
+
     public String getEmpName() {
         return empName;
     }
